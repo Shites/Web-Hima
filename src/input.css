@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme{
+    --color-blueHima:#133F66;
+    --font-poppins:'Poppins', sans-serif;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+}

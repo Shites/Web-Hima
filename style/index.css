@@ -1,0 +1,289 @@
+
+.slide-container {
+    max-width: 90rem;
+    width: 20rem;
+    padding: 40px 0;
+}
+
+.containerKs{
+    width: 30rem ; 
+}
+
+.slide-content { 
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    width: 20px;
+    height: 40rem;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+    .image-content {  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 15rem;
+        padding-bottom: 7rem;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    padding: 3px;
+}
+
+    .card-image .card-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #4070F4;
+    }
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+    .button:hover { background: #265DF2; }
+
+.swiper-navBtn {
+    color: #6E93F7 !important;
+    transition: all .3s ease;
+}
+
+    .swiper-navBtn:hover { color: #4070F4 !important; }
+
+    .swiper-navBtn::before, .swiper-navBtn::after { font-size: 40px !important; }
+
+.swiper-button-next { right: 0 !important; }
+.swiper-button-prev { left: 0 !important; }
+
+    .swiper-pagination-bullet { background-color: #6E93F7 !important; opacity: 1 !important; }
+    .swiper-pagination-bullet-active { background-color: #4070F4 !important; }
+
+@media screen and (max-width: 768px) {
+    .slide-content { margin: 0 10px; }
+    .swiper-navBtn { display: none !important; }
+}
+
+.nav-stay{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 25px;
+}
+
+.nav-stay:hover{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #133F66;
+    border-radius: 25px;
+    color: white;
+    transition: all .2s ease;
+   
+}
+
+.swiper-paginationKs{
+    transform:translateX(0px) !important;
+}
+
+.swiper-paginationKsui{
+    transform:translateX(0px) !important;
+}
+
+.swiper-paginationKsl{
+    transform:translateX(0px) !important;
+}
+
+.stay{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #133F66;
+    color: white;
+    border-radius: 25px;
+}
+
+.stayKs{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: white;
+    color: #133F66;
+    border-radius: 25px;
+}
+
+.nav-stay-ks{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 25px;
+}
+
+.nav-stay-ks:hover{
+    background-color: white;
+    color: #133F66;
+
+}
+
+.menu-ks{
+    background-color: rgba(19, 63, 102,60%);
+  
+    color: white;
+    border-radius: 25px;
+}
+
+@media  (min-width: 1024px) {
+    .slide-container {
+        max-width: 90rem;
+        width: 90rem;
+        padding: 40px 0;
+    }
+    
+    .slide-content { 
+        margin: 0 40px;
+        overflow: hidden;
+        border-radius: 25px;
+    }
+    
+    .card {
+        width: 320px;
+        height: 40rem;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+    }
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+    }
+    
+        .image-content {  
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 15rem;
+            padding-bottom: 7rem;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+    
+    
+    .card-image {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background: #FFFFFF;
+        padding: 3px;
+    }
+    
+        .card-image .card-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #4070F4;
+        }
+    
+    .name {
+        font-size: 18px;
+        font-weight: 500;
+        color: #333333;
+    }
+    
+    .description {
+        font-size: 14px;
+        color: #707070;
+        text-align: left;
+    }
+    
+    .button {
+        border: none;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 8px 16px;
+        background-color: #4070F4;
+        border-radius: 6px;
+        margin: 14px;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    
+        .button:hover { background: #265DF2; }
+    
+    .swiper-navBtn {
+        color: #6E93F7 !important;
+        transition: all .3s ease;
+    }
+    
+        /* .swiper-navBtn:hover { color: #4070F4 !important; visibility: hidden; }
+    
+        .swiper-navBtn::before, .swiper-navBtn::after { font-size: 40px !important;visibility: hidden; } */
+
+        .swipeKsPrev{
+            left: 120px !important;
+        }
+
+        .swipeKsNext{
+            right: 120px !important;
+        }
+    
+    /* .swiper-button-next { right: 0 !important; visibility: hidden; }
+    .swiper-button-prev { left: 0 !important; } */
+    
+        .swiper-pagination-bullet { background-color: #6E93F7 !important; opacity: 1 !important; }
+        .swiper-pagination-bullet-active { background-color: #4070F4 !important; }
+}
+
